@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+</head>
+<body>
+  <section class="brends">
+    <!-- container -->
+    <div class="brends__top">
+      <div class="brends__title">
+        Ремонт техники различных брендов
+      </div>
+    </div>
+    <div class="brends__content wripper">
+      <div class="brends-slider swiper-container">
+        <div class="brends-slider__wrapper swiper-wrapper">
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="images/brends/lenovo.png" alt="lenovo">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="images/brends/sumsung.png" alt="sumsung">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="images/brends/apple.png" alt="apple">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+<!-- 
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div>
+
+          <div class="brends-slider__slide swiper-slide">
+            <div class="brends-slider__image">
+              <img src="" alt="">
+            </div>
+            <div class="brends-slider__button">
+              
+            </div>
+          </div> -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+</html>

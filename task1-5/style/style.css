@@ -1,0 +1,198 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: Arial;
+  font-size: 14px;
+  /* background-color: #7E7E82; */
+  margin: 0;
+}
+
+
+.brends__top {
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #7E7E82;
+  background-image: linear-gradient(-270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  border-top: 1px solid #D9FFF5;
+}
+
+.swiper {
+  height: 154px;
+  background-color: #f2f2f2;
+}
+
+.brends-slider {
+  width: auto;
+}
+
+.brends-slider__slide {
+  position: relative;
+  width: 240px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  height: 72px;
+  padding: 0 16px;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+}
+
+.brends-slider__slide:nth-child(1) {
+background: #ffffff url("/images/brends/lenovo.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(2) {
+  background: #ffffff url("/images/brends/sumsung.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(3) {
+  background: #ffffff url("/images/brends/apple.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(4) {
+  background: #ffffff url("/images/brends/view-sonic.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(5) {
+  background: #ffffff url("/images/brends/bosch.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(6) {
+  background: #ffffff url("/images/brends/hp.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(7) {
+  background: #ffffff url("/images/brends/acer.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(8) {
+  background: #ffffff url("/images/brends/sony.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(9) {
+  background: #ffffff url("/images/brends/lenovo.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(10) {
+  background: #ffffff url("/images/brends/sumsung.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(11) {
+  background: #ffffff url("/images/brends/apple.png") no-repeat 16px 50%;
+}
+
+.brends-slider__link {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 16px;
+  top: 16px;
+  border: 2px solid #FF3E79;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #ffffff url("/images/arrow.svg") no-repeat;
+  background-position: center;
+}
+
+.swiper-pagination {
+  margin-bottom: 24px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #B5B6BC;
+}
+
+.info__read-more {
+  display: none;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
+.info__read-more-button {
+  position: relative;
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+}
+
+
+
+@media (min-width : 768px) {
+
+  .brends__top {
+    padding-left: 24px;
+  }
+
+  .brends-slider {    
+    padding: 24px;
+    height: auto;
+  }
+
+  .brends-slider__wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 30% 30% 30%; */
+    gap: 16px 24px;
+    padding: 0;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .brends-slider__slide {
+    width: 100% ;
+    margin: 0;
+  }
+
+  .info__read-more {
+    display: block;
+  }
+
+}
+
+
+@media (min-width : 1120px) {
+
+  .brends__top {
+    padding-left: 32px;
+  }
+
+  .brends-slider {    
+    padding: 24px;
+  }
+
+  .brends-slider__wrapper {
+    /* grid-template-columns: 21.5% 21.5% 21.5% 21.5%; */
+    grid-template-columns: auto auto auto auto;
+    gap: 16px 32px;
+    padding: 0;
+  }
+
+  /* .info__read-more {
+    margin-left: 32px; 
+  } */
+
+}

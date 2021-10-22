@@ -57,47 +57,47 @@ body {
 }
 
 .brends-slider__slide:nth-child(1) {
-background: #ffffff url("/images/brends/lenovo.png") no-repeat 16px 50%;
+background: #ffffff url("../images/brends/lenovo.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(2) {
-  background: #ffffff url("/images/brends/sumsung.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/sumsung.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(3) {
-  background: #ffffff url("/images/brends/apple.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/apple.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(4) {
-  background: #ffffff url("/images/brends/view-sonic.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/view-sonic.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(5) {
-  background: #ffffff url("/images/brends/bosch.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/bosch.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(6) {
-  background: #ffffff url("/images/brends/hp.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/hp.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(7) {
-  background: #ffffff url("/images/brends/acer.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/acer.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(8) {
-  background: #ffffff url("/images/brends/sony.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/sony.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(9) {
-  background: #ffffff url("/images/brends/lenovo.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/lenovo.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(10) {
-  background: #ffffff url("/images/brends/sumsung.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/sumsung.png") no-repeat 16px 50%;
 }
 
 .brends-slider__slide:nth-child(11) {
-  background: #ffffff url("/images/brends/apple.png") no-repeat 16px 50%;
+  background: #ffffff url("../images/brends/apple.png") no-repeat 16px 50%;
 }
 
 .brends-slider__link {
@@ -110,7 +110,7 @@ background: #ffffff url("/images/brends/lenovo.png") no-repeat 16px 50%;
   border: 2px solid #FF3E79;
   border-radius: 50%;
   vertical-align: middle;
-  background: #ffffff url("/images/arrow.svg") no-repeat;
+  background: #ffffff url("../images/arrow.svg") no-repeat;
   background-position: center;
 }
 

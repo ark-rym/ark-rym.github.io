@@ -20,7 +20,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  font-size: 14px;
   /* background-color: #7E7E82; */
   margin: 0;
 }
@@ -131,6 +130,8 @@ background: #ffffff url("../images/brends/lenovo.png") no-repeat 16px 50%;
   padding: 0;
   margin-top: 24px;
   margin-bottom: 34px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .info__read-more-button {
@@ -139,8 +140,6 @@ background: #ffffff url("../images/brends/lenovo.png") no-repeat 16px 50%;
   background-color: inherit;
   border: none;
   
-  font-style: normal;
-  font-weight: 500;
 }
 
 

@@ -22,7 +22,7 @@ body {
   
   line-height: 20px;
   color: #1b1c21;
-  background-color: #ffdeff;
+  background-color: #ffffff;
 }
 
 /* Header styles start */
@@ -71,12 +71,11 @@ body {
   left: 0;
   margin: 0;
   padding: 0 24px;
-  /* padding-left: 16px;
-  padding-top: 24px; */
   height: 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
 .burger__button {
@@ -130,7 +129,9 @@ body {
   transition: 0.1s all;
   transform: translateY(100%);
   overflow: auto;
-  box-shadow: 0 -6px 4px -4px rgba(0, 0, 0, .2);
+  box-shadow: 16px 40px 52px rgba(14, 24, 80, 0.2);
+
+  /* box-shadow: -2px -50px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); */
 }
 
 .burger__list {
@@ -162,10 +163,10 @@ body {
   position: absolute;
   width: 4px;
   height: 32px;
-  left: -16px;
+  left: -24px;
   top: -5px;
   background-color: #ffffff;
-  border-radius: 2px;
+  border-radius: 0 2px 2px 0;
 }
 
 .burger__list-item:hover::before {

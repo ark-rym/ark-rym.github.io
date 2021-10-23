@@ -130,6 +130,7 @@ body {
   transition: 0.1s all;
   transform: translateY(100%);
   overflow: auto;
+  box-shadow: 0 -6px 4px -4px rgba(0, 0, 0, .2);
 }
 
 .burger__list {
@@ -279,28 +280,28 @@ body {
 }
 
 .call__button::after {
-  content: url("/img/call.svg");
+  content: url("../img/call.svg");
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
 .chat__button::after {
-  content: url("/img/chat.svg");
+  content: url("../img/chat.svg");
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
 .profile__button::after {
-  content: url("/img/profile.svg");
+  content: url("../img/profile.svg");
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
 .search__button::after {
-  content: url("/img/search.svg");
+  content: url("../img/search.svg");
   position: absolute;
   top: 10px;
   left: 12px;

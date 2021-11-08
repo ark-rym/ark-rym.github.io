@@ -1,0 +1,294 @@
+.slider__top {
+  padding: 16px;
+  background-image: linear-gradient(-270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  border-top: 1px solid #D9FFF5;
+}
+
+.slider__top-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #7E7E82;
+}
+
+.swiper {
+  width: auto;
+  background-color: #f2f2f2;
+  padding: 16px 0;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 240px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+}
+
+.swiper-slider__slide-link {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 16px;
+  bottom: 16px;
+  border: 2px solid #FF3E79;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #ffffff url("../img/arrow.svg") no-repeat;
+  background-position: center;
+}
+
+.swiper-pagination {
+  margin-bottom: 24px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #B5B6BC;
+}
+
+.info__read-more {
+  display: none;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 34px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.info__read-more-button {
+  position: relative;
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+  
+}
+
+/* ------------------------------------ */
+/*------------Brends  start------------ */
+/* ------------------------------------ */
+
+.brends-slider {
+  height: 140px;
+}
+
+.brends-slider__slide {
+  height: 72px;
+}
+
+.brends-slider__slide:nth-child(1) {
+background: #ffffff url("../img/brends/lenovo.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(2) {
+  background: #ffffff url("../img/brends/sumsung.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(3) {
+  background: #ffffff url("../img/brends/apple.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(4) {
+  background: #ffffff url("../img/brends/view-sonic.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(5) {
+  background: #ffffff url("../img/brends/bosch.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(6) {
+  background: #ffffff url("../img/brends/hp.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(7) {
+  background: #ffffff url("../img/brends/acer.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(8) {
+  background: #ffffff url("../img/brends/sony.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(9) {
+  background: #ffffff url("../img/brends/lenovo.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(10) {
+  background: #ffffff url("../img/brends/sumsung.png") no-repeat 16px 50%;
+}
+
+.brends-slider__slide:nth-child(11) {
+  background: #ffffff url("../img/brends/apple.png") no-repeat 16px 50%;
+}
+
+.brends-pagination {
+  top: 104px;
+}
+
+/* ------------------------------------ */
+/*------------Brends  end-------------- */
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+/*------------Techs  start------------ */
+/* ------------------------------------ */
+
+.techs-slider {
+  height: 228px;
+}
+
+.techs-slider__slide {
+  height: 160px;
+  background-color: #FFFFFF;
+}
+
+.techs-slider__slide-text {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  text-decoration: none;
+  color: #1B1C21;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.techs-pagination {
+  top: 192px;
+}
+
+/* ------------------------------------ */
+/*------------Techs  end-------------- */
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+/*------------Price  start------------ */
+/* ------------------------------------ */
+
+.price-slider {
+  height: 260px;
+}
+
+.price-slider__slide {
+  width: 260px;
+  height: 200px;
+  background-color: #FFFFFF;
+}
+
+.price-slider__slide-link {
+  display: inline-block;
+  position: absolute;
+  width: 119px;
+  height: 32px;
+  right: 16px;
+  bottom: 16px;
+  border-radius: 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  
+  background: #FF3E79 url("../img/arrow-white.svg") no-repeat;
+  background-position: 96px center;
+}
+
+.price-slider__slide-link::after {
+  content: 'Заказать';
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.price-slider__slide-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-slider__slide-text-masked {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E82;
+}
+
+.price-slider__slide-text-unmasked {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1B1C21;
+}
+
+.price-pagination {
+  top: 232px;
+}
+
+/* ------------------------------------ */
+/*------------Price  end-------------- */
+/* ------------------------------------ */
+
+
+@media (min-width : 768px) {
+
+  .slider__top {
+    padding-left: 24px;
+  }
+
+  .swiper {    
+    padding: 24px;
+    height: auto;
+  }
+
+  .swiper-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 30% 30% 30%; */
+    gap: 16px 24px;
+    padding: 0;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .swipper__slide {
+    width: 100% ;
+    margin: 0;
+  }
+
+  .info__read-more {
+    display: block;
+  }
+
+}
+
+
+@media (min-width : 1120px) {
+
+  .slider__top {
+    padding-left: 32px;
+  }
+
+  .swiper {    
+    padding: 24px;
+  }
+
+  .swiper-wrapper {
+    /* grid-template-columns: 21.5% 21.5% 21.5% 21.5%; */
+    grid-template-columns: auto auto auto auto;
+    gap: 16px 32px;
+    padding: 0;
+  }
+
+  /* .info__read-more {
+    margin-left: 32px; 
+  } */
+
+}

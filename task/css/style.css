@@ -12,27 +12,29 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
+  height: 100%;
+  width: 100%;
   min-width: 320px;
-  /* min-height: 100vh; */
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: TT Lakes;
   font-size: 14px;
   line-height: 20px;
   color: #1b1c21;
+  /* background-color: #F8F8F8; */
+}
+
+.container {
+  margin: 0;
+  padding: 0;
   background-color: #F8F8F8;
 }
 
 /* Header styles start */
 
-.container {
-  padding: 0 16px;
-}
-
-
 .header {
   background-color: #ffffff;
+  padding: 0 16px;
 /*   width: 100%; */
   border-bottom: 1px solid #D9FFF5;
 }
@@ -86,14 +88,6 @@ body {
   margin: 0;
   /* margin-left: 16px; */
 }
-
-
-/* .logo {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  margin-left: 16px;
-} */
 
 .call-h,
 .chat-h,
@@ -170,7 +164,8 @@ body {
 } */
 
 @media (min-width: 768px) {
-  .container {
+
+  .header {
     padding: 0 24px;
   }
 
@@ -192,24 +187,26 @@ body {
 }
 
 @media (min-width: 1120px) {
-  .container {
-    padding: 0 32px;
-  }
 
   .header {
     background-color: #F8F8F8;
     border-bottom: none;
+    padding: 0 32px;
   }
 
   .header__inner {
     align-items: flex-end;
   }
   
-  .logo,
+  /* .logo, */
   .call,
   .chat,
   .profile  {
     display: none;  
+  }
+
+  .logo {
+    left: -180px;
   }
 
   .item {
@@ -346,6 +343,42 @@ body {
   width: 100%;
 }
 
+.price-info {
+  max-width: 421px;
+  margin: 0 16px;
+  padding-right: 50px;
+  background-color: inherit;
+}
+
+.price-info__text {
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1B1C21;
+}
+
+.get-an-offer {
+  width: 192px;
+  margin: 16px auto 40px 16px;
+}
+
+.get-an-offer__link {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  text-decoration: none; 
+}
+
+.get-an-offer__link::after {
+  content: url("../img/arrow-pink.svg");
+  bottom: -4px;
+  right: -16px;
+  position: absolute;
+}
+
 @media (min-width: 768px) {
   .container-main {
     padding: 24px 24px;
@@ -388,16 +421,29 @@ body {
     flex: 1 1 0;  
     margin: 0;
   }
+
+  .price-info {
+    /* width: 421px; */
+    margin: 0 24px;
+    padding: 0;
+    background-color: inherit;
+  }
+  
+  .get-an-offer {
+    width: auto;
+    margin: 16px auto 47px 24px;
+  }
 }
 
 @media (min-width: 1120px) {
   .container-main {
+    position: relative;
     padding: 16px 32px;
   }
 
   .title {
     position: absolute;
-    top: 47px;
+    top: -48px;
     left: 32px;
     margin: 0;
   }
@@ -471,18 +517,27 @@ body {
 @media (min-width: 768px) {
   .footer-container {
     flex-direction: row;
-    flex-basis: 0;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     height: 105px;
+  }
+
+  .footer-container>* {
+    flex-basis: 33%;
+    padding-top: 32px;
+    /* text-align: center; */
+  }
+
+  .footer-left{
+    text-align: left;
+  }
+
+  .footer-right {
+    text-align: right;
   }
 }
 
 @media (min-width: 1120px) {
   .footer-container {
-    /* flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch; */
     height: 85px;
   }
 }

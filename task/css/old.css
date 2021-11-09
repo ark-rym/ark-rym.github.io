@@ -15,7 +15,7 @@
 
 .swiper {
   width: auto;
-  background-color: inherit;
+  background-color: #f2f2f2;
   padding: 16px 0;
 }
 
@@ -67,8 +67,8 @@
   padding: 10px;
   background-color: inherit;
   border: none;
+  
 }
-
 
 /* ------------------------------------ */
 /*------------Brends  start------------ */
@@ -247,8 +247,8 @@ background: #ffffff url("../img/brends/lenovo.png") no-repeat 16px 50%;
     height: auto;
   }
 
-  .brends-slider__wrapper,
-  .techs-slider__wrapper  {
+  .brends-slider__wrapper  {
+  /* .swiper-wrapper { */
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 16px 24px;
@@ -256,38 +256,6 @@ background: #ffffff url("../img/brends/lenovo.png") no-repeat 16px 50%;
     height: 160px;
     width: 100%;
     overflow: hidden;
-  }
-
-  .price-slider__wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .price-slider__slide-text-unmasked {
-    padding: 23px 0;
-    margin: 0;
-  }
-
-  .price-slider__slide-text-masked {
-    display: none;
-  }
-
-  .price-slider__slide-text {
-    flex-direction: row;
-    /* display: grid; */
-    /* grid-template-columns: 372px 96px auto; */
-  }
-
-  .price-slider__slide-item1 {
-    width: 53%;
-  }
-
-  .price-slider__slide-item2 {
-    width: 15%;
-  }
-
-  .price-slider__slide {
-    height: auto;
   }
 
   .swiper-slide {

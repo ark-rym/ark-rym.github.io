@@ -32,10 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
       var sliderBrendsInner = document.querySelector('.brends-slider__wrapper')
       var buttonBrendsOpen = document.querySelector('.brends__show-more-button')
       var slidesBrendsList = document.querySelectorAll('.brends-slider__slide');
+      var slidesBrendsSlide = document.querySelector('.brends-slider__slide');
 
       var sliderTechsInner = document.querySelector('.techs-slider__wrapper')
       var buttonTechsOpen = document.querySelector('.techs__show-more-button')
       var slidesTechsList = document.querySelectorAll('.techs-slider__slide');
+      
+      // if (slidesBrendsSlide.offsetWidth < 210) {
+      //   slidesBrendsSlide.css.backgroundSize = 
+      // }
 
       var nElementsInRow = 3
       var sliderInnerPadding = 24

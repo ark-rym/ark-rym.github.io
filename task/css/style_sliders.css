@@ -80,6 +80,7 @@
 
 .brends-slider__slide {
   height: 72px;
+  min-width: 210px;
 }
 
 .brends-slider__slide:nth-child(1) {
@@ -301,9 +302,8 @@ background: #ffffff url("../img/brends/lenovo.png") no-repeat 16px 50%;
 
 }
 
-
-@media (min-width : 1120px) {
-
+/* @media (min-width : 1120px) { */
+@media (min-width : 1440px) {
   .slider__top {
     padding-left: 32px;
   }

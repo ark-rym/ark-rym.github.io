@@ -76,6 +76,10 @@
   /* box-shadow: 16px 40px 52px rgba(14, 24, 80, 0.2); */
 }
 
+.burger__menu::-webkit-scrollbar {
+  width: 0;
+}
+
 .burger__nav__list {
   list-style-type: none;
   padding: 0;
@@ -134,8 +138,17 @@
 
 .search__burger {
   display: none;
+  top: 35px;
+  right: 30px;
+  margin: 0;
 }
 
+.search__burger::after {
+  content: url("../img/search-burger.svg");
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
 
 .burger__email {
   margin-bottom: 12px;

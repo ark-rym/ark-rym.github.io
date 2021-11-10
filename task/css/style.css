@@ -82,11 +82,9 @@ body {
 
 .logo {
   position: absolute;
-  top: 18px;
+  top: 15px;
   left: 80px;
-  /* z-index: 1; */
   margin: 0;
-  /* margin-left: 16px; */
 }
 
 .call-h,
@@ -283,6 +281,10 @@ body {
   /* overflow: hidden; */
   overflow-x: scroll;
   margin-bottom: 24px;
+}
+
+.main__menu::-webkit-scrollbar {
+  width: 0;
 }
 
 .menu__btn {

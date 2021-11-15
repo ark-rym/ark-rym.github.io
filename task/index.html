@@ -17,9 +17,7 @@
     <header class="header">
       <div class="header__inner">
         <menu class="header__container">
-          <menu class="burger">
-            <!-- <button class="burger-menu__button header__button"></button> -->
-          
+          <menu id="burger" class="burger">
             <input type="checkbox" id="burger__id" class="burger__button">
             <label for="burger__id" class="label">
               <div class="burger__label header__button">
@@ -39,7 +37,10 @@
             <div class="search__burger item">
               <button class="search__burger-button header__button"></button>
             </div>
-
+        
+            <!-- <a href="#" class="burger__area"></a> -->
+            <div class="burger__inner"></div>
+            
             <div class="burger__menu">
           
               <div class="burger__container">
@@ -48,7 +49,7 @@
                     <li><a href="#" class="burger__nav__list-item">Ремонт техники</a></li>
                     <li><a href="#" class="burger__nav__list-item">Услуги и сервисы</a></li>
                     <li><a href="#" class="burger__nav__list-item">Корпоративным клиентам</a></li>
-                    <li><a href="#" class="burger__nav__list-item">Продавцам техники</a></li>
+                    <li><a href="#" class="burger__nav__list-item">Продавцам техники</a></li> 
                     <li><a href="#" class="burger__nav__list-item">Партнерам</a></li>
                     <li><a href="#" class="burger__nav__list-item">Производителям</a></li>
                     <li><a href="#" class="burger__nav__list-item">Наши сервисные центры</a></li>
@@ -86,8 +87,6 @@
                 </div>
               </div>
             </div>
-          
-          
           </menu>
 
           <!-- <div class="logo item">
@@ -139,7 +138,7 @@
 
         <section class="main__inner">
           <div class="info">
-            <div class="info__text">
+            <div class="info__text info__text-js">
               <p class="info__text-1">
                 Мы являемся авторизованным сервисным центром по ремонту техники Dell.
                 Только у нас вы можете отремонтировать свой
@@ -155,7 +154,7 @@
               </p>
             </div>
             <div class="info__read-more">
-              <img src="img/arr.svg">
+              <img src="img/arr.svg" class="info__read-more-image">
               <input type="button" value="Читать далее" class="info__read-more-button">
             </div>
           </div>

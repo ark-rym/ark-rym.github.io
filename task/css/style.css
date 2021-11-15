@@ -72,20 +72,12 @@ body {
   padding-left: 8px; 
 } 
 
-/* ------------------------------------ */
-/*------------Burger  start------------ */
-/* ------------------------------------ */
-
-
-/* ------------------------------------ */
-/*------------Burger  end------------ */
-/* ------------------------------------ */
-
 .logo {
   position: absolute;
   top: 15px;
   left: 80px;
   margin: 0;
+  z-index: 2;
 }
 
 .call-h,
@@ -130,8 +122,6 @@ body {
   left: 12px;
 }
 
-
-
 .settings__button::before {
   content: "";
   position: absolute;
@@ -143,24 +133,6 @@ body {
   border-radius: 1px;
   border: none;
 }
-
-
-/* .burder-menu_buttom::after {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 11px;
-  width: 18px;
-  height: 2px;
-  border-radius: 1px;
-  background-color: #ffffff;
-} */
-
-/* @media (min-width: 360px) {
-  .burger {
-    padding: 0 24px;
-  }
-} */
 
 @media (min-width: 768px) {
 
@@ -316,13 +288,16 @@ body {
 }
 
 .info__text {
-  max-height: 90px;
   max-width: auto;
   overflow: hidden;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
   margin-bottom: 16px;
+}
+
+.info__text-js {
+  max-height: 90px;
 }
 
 .info__read-more {
@@ -391,14 +366,7 @@ body {
   }
 
   .title__text::before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 40px;
   left: -24px;
-  top: 0;
-  background-color: #41F6D7;
-  border-radius: 2px;
   }
 
   .main__menu {
@@ -410,9 +378,12 @@ body {
   }
 
   .info__text {
-    max-height: 160px;
     line-height: 20px;
   }
+
+  .info__text-js {
+    max-height: 160px;
+  } 
 
   .info {
     flex: 1 1 0;
@@ -429,7 +400,6 @@ body {
   }
 
   .price-info {
-    /* width: 421px; */
     margin: 0 24px;
     padding: 0;
     background-color: inherit;
@@ -455,14 +425,7 @@ body {
   }
 
   .title__text::before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 40px;
   left: -32px;
-  top: 0;
-  background-color: #41F6D7;
-  border-radius: 2px;
   }
 
   .main__menu {
@@ -473,24 +436,10 @@ body {
     padding: 9px 20px;
   }
 
-  .main__inner {
-    flex-wrap: nowrap;
-  }
-
-  .info__text {
-    max-height: 160px;
-    line-height: 20px;
-  }
-
   .info {
-    flex: 1 1 0;
     margin-right: 36px;
   }
 
-  .picture {
-    flex: 1 1 0;  
-    margin: 0;
-  }
 }
 
 /* Main styles end */
